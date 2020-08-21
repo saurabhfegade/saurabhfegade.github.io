@@ -704,7 +704,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   padding: 60px 0 30px 0;
   /* background: #fcf8f8; */
-  background: linear-gradient(45deg,#fff0ff 30%, #e6a4a4 100%);
+  background: linear-gradient(45deg,#fff5ff 50%, #f8c1c1 100%);
 }
 
 #about .about-img {
@@ -767,7 +767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #whyus {
   padding: 60px 0 30px 0;
   /* background: #eafdfd; */
-  background: linear-gradient(45deg,#d2ffff 30%, #eafdfd 100%);
+  background: linear-gradient(45deg,#d2ffff 50%, #eafdfd 100%);
 }
 
 #whyus .whyus-img {
