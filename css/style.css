@@ -106,7 +106,7 @@ h6 {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #555;
+  color: var(--plum);
 }
 
 #topbar .contact-info a:hover {
