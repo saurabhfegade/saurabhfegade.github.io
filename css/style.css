@@ -1394,6 +1394,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 0;
     padding-bottom: 30px;
   }
+
+  #whyus .whyus-img {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
