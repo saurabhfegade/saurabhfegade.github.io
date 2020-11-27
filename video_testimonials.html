@@ -1,26 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Testimonials</title>
+    <!-- <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/video_testimonials.css">
 </head>
+
 <body>
-    <div class="banner">
-        <div class="content">
-            <img src="bg.jpg" alt="BG">
-            <h2>Video Testimonials</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime fugiat enim corrupti, praesentium commodi expedita voluptates laborum dolorum inventore neque sunt esse quae voluptatem, nihil dolorem est, eaque officiis reiciendis!
-            Quaerat commodi ullam voluptas magnam saepe eos iste, hic eaque recusandae repudiandae dicta libero quibusdam omnis. Repellat repellendus officia a quisquam. Itaque quo nulla molestias adipisci nam, placeat quod voluptatibus!
-            Doloremque, ex animi. Et ut dignissimos dolorum fugiat itaque expedita vero, explicabo amet repudiandae cumque a id odit ipsam quae optio commodi. Facere nobis enim, pariatur assumenda omnis a nihil!
-            Ipsum, quas molestias? Ducimus beatae molestias quo atque, voluptates iure in voluptate dignissimos veniam et enim facere non delectus officia perspiciatis libero! Repellendus ex voluptatem possimus dignissimos voluptates quo in!
-            Quasi vitae repellendus ut iusto earum illo similique blanditiis nostrum odit, animi libero fugiat, modi quam a commodi vel. Officiis, reiciendis! Voluptas ut hic voluptates eaque, impedit velit nam quod?</p>
-            <a href="#">Watch Video</a>
+    <h1>Video Testimonials</h1>
+    <div class="row">
+        <div class="column">
+            <div class="banner">
+                <div class="content">
+                    <video src="vid/kinspiresportsclinic_841587081823941130025268088734867463563571n.mp4"
+                        controls="true"></video>
+
+
+                    <!-- <img src="img/intro-carousel/1.jpg" alt="BG"> -->
+                    <h2>Mr. Sachin</h2>
+
+                    <p>“Last Thursday while doing a speed run I had a hamstring pull”
+
+                        We at Kinspire take such things as a challenge. People train all year round and sometimes due to
+                        some incidents the possibilities of them successfully completing the Marathon are almost zero.
+                        When a runner like Mr. Sachin with such a genuine passion comes to us for recovery, we put in
+                        all our efforts to make sure he runs the race successfully. For most of these people it’s not
+                        about being their personal best or winning these races. It’s just about being a part of the
+                        event which they have dreamt of and waited all year long. Mr. Sachin is an avid marathon runner
+                        who has been a marathon runner for many years and was one of the first runners to reach at the
+                        recovery zone.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="banner">
+                <div class="content">
+                    <video src="vid/kinspiresportsclinic_8399776110512480185701647726126633105925656n.mp4"
+                        controls="true"></video>
+
+                    <!-- <img src="img/intro-carousel/1.jpg" alt="BG"> -->
+                    <h2>Ms. Moushmi Thakur</h2>
+
+                    <p>“This was one of my best runs ever”
+                        Being a part of the journey of runners like Moushmi who have a passion to not just reach the
+                        finish line but achieve their personal best is an overwhelming experience. Moushmi Thakur has
+                        been running for the last 7 years and her journey is one of the most inspiring where any injury
+                        or any setback has never stopped her from achieving her goal. We are proud to be a part of her
+                        success in the Tata Mumbai Marathon.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="banner">
+                <div class="content">
+                    <video src="vid/kinspiresportsclinic_8394331228464243653809526876960005632527170n.mp4"
+                        controls="true"></video>
+
+                    <!-- <img src="img/intro-carousel/1.jpg" alt="BG"> -->
+                    <h2>Mr. Navin Makhija</h2>
+
+                    <p>“Kinspire’s satisfaction is when runners do well”
+
+                        Sometimes our patients put it out better than us. Thank you for you kind words Mr. Navin
+                        Makhija. We are
+                        happy to be your go to team. Looking forward to the next challenge you throw at us.
+
+                    </p>
+
+                </div>
+            </div>
         </div>
     </div>
-    <div class="trailer">
-        <video src="" controls="true"></video>
-    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var trailer = document.querySelector(".trailer")
+            var video = document.querySelector("video")
+            trailer.classList.toggle("active");
+            video.pause();
+            video.currentTime = 0;
+        }
+    </script>
 </body>
+
 </html>
