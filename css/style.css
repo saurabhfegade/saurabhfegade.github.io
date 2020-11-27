@@ -9,15 +9,15 @@
 # General
 --------------------------------------------------------------*/
 :root {
---cyber-grape: #59386eff;
---plum: #883a8aff;
---amaranth-m-p: #a7356cff;
---french-rose: #ef4181ff;
---tufts-blue: #4c89c5ff;
---pacific-blue: #3bb6ceff;
---non-photo-blue: #9edae6ff;
---middle-blue: #8dd3e2ff;
---spanish-blue: #3770a9ff;
+  --cyber-grape: #59386eff;
+  --plum: #883a8aff;
+  --amaranth-m-p: #a7356cff;
+  --french-rose: #ef4181ff;
+  --tufts-blue: #4c89c5ff;
+  --pacific-blue: #3bb6ceff;
+  --non-photo-blue: #9edae6ff;
+  --middle-blue: #8dd3e2ff;
+  --spanish-blue: #3770a9ff;
 }
 @font-face {
   font-family: Domine;
@@ -195,8 +195,6 @@ h6 {
   background-size: cover;
 }
 
-
-
 #intro .intro-content {
   position: absolute;
   bottom: 0;
@@ -229,8 +227,8 @@ h6 {
   z-index: 10;
 }
 
-#intro .intro-content img{
-  height: 20%; 
+#intro .intro-content img {
+  height: 20%;
   width: auto;
   padding-bottom: 30px;
 }
@@ -248,7 +246,11 @@ h6 {
   /* background: #0c2e8a; */
   /* background: #a078b9; */
   /* background: var(--cyber-grape); */
-  background: linear-gradient(45deg, var(--cyber-grape) 0%, var(--french-rose) 100%);
+  background: linear-gradient(
+    45deg,
+    var(--cyber-grape) 0%,
+    var(--french-rose) 100%
+  );
   border-radius: 20% 0%;
   /* box-shadow: 0 0 6px rgb(41,185,82), 0 0 3px beige inset; */
   /* padding: .5em 1.3em; */
@@ -296,7 +298,7 @@ h6 {
 }
 
 #intro #intro-carousel::before {
-  content: '';
+  content: "";
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   height: 100%;
@@ -569,7 +571,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -586,7 +588,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   line-height: 30px;
 }
-
 
 /* Clinics Open Section
 --------------------------------*/
@@ -608,7 +609,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clinic .clinic-img img {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #clinic .clinic-img img:hover {
@@ -623,10 +624,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 80%;
   height: 72%;
   z-index: -1;
-  content: '';
+  content: "";
   /* background-color: #f8d5e5; */
-  background: linear-gradient(45deg,#d66498 0%, #f8d5e5 100%);
-  transition: .5s;
+  background: linear-gradient(45deg, #d66498 0%, #f8d5e5 100%);
+  transition: 0.5s;
 }
 
 #clinic .clinic-img::after {
@@ -636,12 +637,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 80%;
   height: 72%;
   z-index: -1;
-  content: '';
+  content: "";
   /* background-color: #c6e3ff; */
   background: linear-gradient(45deg, #c6e3ff 0%, #6c9cc9 100%);
-  transition: .5s;
+  transition: 0.5s;
 }
-
 
 #clinic .content h2 {
   color: var(--amaranth-m-p);
@@ -651,7 +651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
-  font-family: url("../Domine/Domine-Regular.ttf")
+  font-family: url("../Domine/Domine-Regular.ttf");
 }
 
 #clinic .content h3 {
@@ -689,14 +689,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 10px;
   padding-left: 10%;
   list-style-type: none;
-  color: var(--spanish-blue)
-
-} 
-
-
-
-
-
+  color: var(--spanish-blue);
+}
 
 /* About Section
 --------------------------------*/
@@ -704,7 +698,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   padding: 60px 0 30px 0;
   /* background: #fcf8f8; */
-  background: linear-gradient(45deg,#fff5ff 50%, #f8c1c1 100%);
+  background: linear-gradient(45deg, #fff5ff 50%, #f8c1c1 100%);
 }
 
 #about .about-img {
@@ -722,7 +716,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   font-size: 36px;
   /* font-family: "Raleway", sans-serif; */
-  font-family: url("../Domine/Domine-Regular.ttf")
+  font-family: url("../Domine/Domine-Regular.ttf");
 }
 
 #about .content h3 {
@@ -767,7 +761,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #whyus {
   padding: 60px 0 30px 0;
   /* background: #eafdfd; */
-  background: linear-gradient(45deg,#d2ffff 50%, #eafdfd 100%);
+  background: linear-gradient(45deg, #d2ffff 50%, #eafdfd 100%);
 }
 
 #whyus .whyus-img {
@@ -800,7 +794,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
 }
 
-#whyus .content span{
+#whyus .content span {
   color: var(--amaranth-m-p);
 }
 
@@ -910,7 +904,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: Domine;
 }
 #clients h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -1082,6 +1076,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: var(--french-rose);
 }
 
+#testimonials .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  /* margin: 0px; */
+  color: #fff;
+}
+
+#testimonials .btn-get-started {
+  background: #59386eff;
+  border: 2px solid #0c2e8a;
+}
+
+#testimonials .btn-get-started:hover {
+  background: none;
+  color: #0c2e8a;
+}
+
 /* Call To Action Section
 --------------------------------*/
 
@@ -1136,7 +1153,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -1433,7 +1450,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-
 #instafeed {
   max-width: 1080px;
   width: 100%;
@@ -1446,7 +1462,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
   width: 50%;
   background: white;
@@ -1462,18 +1478,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
 }
 @media only screen and (max-width: 580px) {
-#intro .intro-content h2 {
-  margin-bottom: 30px;
-  font-size: 34px;
-  font-weight: 700;
-}
-#clinic .content h2 {
-  /* padding-bottom: 20px; */
-  padding-top: 20px;
-}
-#clinic .clinic-img {
-  margin: 0px 10px;
-}
+  #intro .intro-content h2 {
+    margin-bottom: 30px;
+    font-size: 34px;
+    font-weight: 700;
+  }
+  #clinic .content h2 {
+    /* padding-bottom: 20px; */
+    padding-top: 20px;
+  }
+  #clinic .clinic-img {
+    margin: 0px 10px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
